@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: blueviolet;
+            color: aliceblue;
+            font-size: 250%;
+        }
+
+        .frame {
+            border: 3px solid darkred;
+            max-width: fit-content;
+            padding: 25px;
+        }
+
+        .mgtb4 {
+            margin-block: 4rem;
+        }
+
+        .mgb2 {
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="mgb2">Books Firebase</h1>
+    <main class="frame">
+        <div>
+            <h2>Add a Book</h2>
+            <form action="" class="add-books">
+                <input type="text" name="title" id="" placeholder="Book Title">
+                <input type="text" name="author" id="" placeholder="Book Author">
+                <button type="submit">Add Book</button>
+            </form>
+        </div>
+        <hr class="mgtb4">
+        <div>
+            <h2>Delete a Book</h2>
+            <form action="" class="del-books">
+                <input type="text" name="" id="id" placeholder="Book ID">
+                <button type="submit">Delete Book</button>
+            </form>
+        </div>
+        <hr class="mgtb4">
+        <div>
+            <h2>Update Book Info</h2>
+            <form action="" class="update-book">
+                <input type="text" name="title" id="id" placeholder="Book Title">
+                <button type="submit">Update Book</button>
+            </form>
+        </div>
+
+        <button class="unsub">Unscubscribe</button>
+
+    </main>
+
+    <script src="../dist/bundle.js"></script>
+</body>
+
+</html>

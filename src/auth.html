@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: blueviolet;
+            color: aliceblue;
+            font-size: 250%;
+        }
+
+        .frame {
+            border: 3px solid darkred;
+            max-width: fit-content;
+            padding: 25px;
+        }
+
+        .mgtb4 {
+            margin-block: 4rem;
+        }
+
+        .mgb2 {
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="mgb2">Auth Page</h1>
+    <main class="frame">
+        <div>
+            <h2>Signup</h2>
+            <form action="" class="signup">
+                <input type="email" name="email" id="" placeholder="Email Address">
+                <input type="password" name="password" id="" placeholder="Password">
+                <button type="submit">SIGNUP</button>
+            </form>
+        </div>
+        <hr class="mgtb4">
+        <div>
+            <h2>Login</h2>
+            <form action="" class="login">
+                <input type="email" name="email" id="" placeholder="Email Address">
+                <input type="password" name="password" id="" placeholder="Password">
+                <button type="submit">LOGIN</button>
+            </form>
+        </div>
+        <hr class="mgtb4">
+        <div>
+            <h2>Logout</h2>
+            <form action="" class="logout">
+                <button type="submit">LOGOUT</button>
+            </form>
+        </div>
+        
+        <hr class="mgtb4">
+        
+        <button class="unsub">Unscubscribe</button>
+    </main>
+
+    <script src="../dist/bundle.js"></script>
+</body>
+
+</html>
